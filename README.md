@@ -5,7 +5,6 @@ Curated Excel productivity hacks, formulas, and automation tips for everyday dat
 # 📊 Excel Hack: Convert Rows into SmartArt
 
 This hack shows how to quickly turn copied rows of data into a **SmartArt graphic** for better visualization.
-
 ---
 
 ## 📝 Steps
@@ -25,4 +24,45 @@ This hack shows how to quickly turn copied rows of data into a **SmartArt graphi
 - Saves time compared to manually creating shapes.
 
 ---
+# 🔍 Excel Hack: VLOOKUP vs INDEX-MATCH
+
+Two of the most popular lookup functions in Excel are **VLOOKUP** and **INDEX-MATCH**.  
+Both help you search for values in a table, but they work differently.
+
+---
+
+## ⚖️ Differences
+
+| Feature              | VLOOKUP                          | INDEX-MATCH                          |
+|----------------------|----------------------------------|--------------------------------------|
+| Lookup Direction     | Only left-to-right               | Works both left-to-right & right-to-left |
+| Flexibility          | Fixed column index number        | Dynamic, based on ranges             |
+| Performance          | Slower on large datasets         | Faster and more efficient            |
+| Maintenance          | Breaks if columns are inserted   | More robust, adapts to changes       |
+
+---
+
+## ✅ Pros & ❌ Cons
+
+### VLOOKUP
+- ✅ Easy to learn and use  
+- ✅ Great for quick lookups  
+- ❌ Can’t look left  
+- ❌ Breaks if columns are moved  
+
+### INDEX-MATCH
+- ✅ More flexible (can look left or right)  
+- ✅ Handles large datasets better  
+- ✅ Robust against column changes  
+- ❌ Slightly harder to learn  
+- ❌ Requires combining two functions  
+
+---
+
+## 🎯 When to Use
+- Use **VLOOKUP** for simple, quick lookups in small tables.  
+- Use **INDEX-MATCH** for complex, large, or frequently changing datasets.
+
+---
+
 
