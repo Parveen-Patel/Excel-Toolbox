@@ -64,5 +64,33 @@ Both help you search for values in a table, but they work differently.
 - Use **INDEX-MATCH** for complex, large, or frequently changing datasets.
 
 ---
+# 📊 Excel Hack: Sparklines for Quick Line Charts
+
+Sparklines are tiny charts that fit inside a cell, giving you a quick visual of your data trends.
+
+---
+
+## 📝 Steps
+
+1. **Select the range** of data you want to visualize.  
+2. Go to the **Insert** tab.  
+3. In the **Sparklines** group, choose **Line**.  
+4. In the dialog box, select the **Data Range** (your column of values).  
+5. Select the **Location Range** (where the sparklines will appear, usually next to your data).  
+6. Click **OK**.  
+7. Each cell now displays a mini **line chart** representing its data trend.
+
+---
+
+## 🎯 Why It’s Useful
+- Provides **instant trend visualization** without creating full charts.  
+- Saves space in dashboards and reports.  
+- Great for spotting patterns across rows or columns quickly.
+
+---
+
+## ⚡ Pro Tip
+- Use **Win/Loss sparklines** for binary data (e.g., profit vs loss).  
+- Combine sparklines with **conditional formatting** for powerful mini-dashboards.
 
 
