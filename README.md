@@ -93,4 +93,29 @@ Sparklines are tiny charts that fit inside a cell, giving you a quick visual of 
 - Use **Win/Loss sparklines** for binary data (e.g., profit vs loss).  
 - Combine sparklines with **conditional formatting** for powerful mini-dashboards.
 
+---
+# 🖼️ Excel Hack: Insert Online Images with IMAGE Function
+
+Excel’s `IMAGE()` function lets you display an online image directly inside a cell using its URL.
+
+---
+
+## 📝 Steps
+
+1. **Copy the image address (URL)** from the web.  
+   - Right-click on the image → Select **Copy Image Address**.  
+2. In your Excel sheet, **paste the copied address** into a cell (e.g., `A2`).  
+3. In the cell next to it (e.g., `B2`), type: =IMAGE(A2) 
+→ This will insert the image from the URL stored in `A2`.  
+4. Press **Enter** and the image will appear inside the cell.
+
+---
+
+## 🎯 Why It’s Useful
+- Embed images directly into your spreadsheet without downloading them.  
+- Great for product catalogs, dashboards, or reports.  
+- Keeps your file lightweight since only the URL is stored.
+
+---
+
 
