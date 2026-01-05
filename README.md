@@ -1,7 +1,73 @@
 # Excel-Toolbox
 Curated Excel productivity hacks, formulas, and automation tips for everyday data tasks.
 ----
+# ⚙️ Excel Hack: Advanced Excel Settings
 
+Excel offers powerful customization options under **File → Options → Advanced** and related menus.  
+Here are some key settings and tricks to boost productivity.
+
+---
+
+## 🛠️ Customize Quick Access Toolbar
+1. Go to **File → Options → Quick Access Toolbar**.  
+2. Choose commands from the left list (e.g., Save As, Sort, Freeze Panes).  
+3. Click **Add >>** to move them to the toolbar.  
+4. Reorder commands with the **Up/Down arrows**.  
+5. Click **OK** → Your favorite tools are now always visible above the ribbon.
+
+---
+
+## 🛠️ Customize Ribbon (Add Your Own Tab)
+1. Go to **File → Options → Customize Ribbon**.  
+2. On the right side, click **New Tab** → Rename it (e.g., "My Tools").  
+3. Add groups inside the tab (e.g., "Formulas", "Macros").  
+4. From the left list, select commands and click **Add >>**.  
+5. Click **OK** → Your custom tab appears in the ribbon.
+
+---
+
+## 📝 Edit Custom Lists
+Custom lists let you auto-fill sequences (like months, weekdays, or your own categories).
+1. Go to **File → Options → Advanced → General → Edit Custom Lists**.  
+2. Enter your list (e.g., "North, South, East, West").  
+3. Click **Add** → Now typing "North" and dragging the fill handle will auto-complete the list.
+
+---
+
+## 🔢 Excel Reference Styles (A1 vs R1C1)
+- **A1 Style (Default)**: Columns labeled A, B, C… and rows labeled 1, 2, 3…  
+  - Example: `=SUM(A1:A10)`
+- **R1C1 Style**: Both rows and columns labeled numerically.  
+  - Example: `=SUM(R1C1:R10C1)` → Same as A1’s `A1:A10`.
+
+To switch:
+1. Go to **File → Options → Formulas**.  
+2. Check or uncheck **R1C1 reference style**.
+
+---
+
+## 📌 Freeze Panes
+Freeze panes keeps headers or specific sections visible while scrolling.
+
+1. Go to **View → Freeze Panes**.  
+2. Options:  
+   - **Freeze Top Row** → Keeps the first row visible.  
+   - **Freeze First Column** → Keeps the first column visible.  
+   - **Freeze Panes** → Freezes based on the active cell:  
+     - Everything **above** the selected row.  
+     - Everything **to the left** of the selected column.  
+     - Example: If your cursor is at `C5`, rows 1–4 and columns A–B remain frozen.
+
+---
+
+## 🎯 Why It’s Useful
+- Quick Access Toolbar → Saves clicks for frequent commands.  
+- Custom Ribbon → Organize tools your way.  
+- Custom Lists → Speed up repetitive data entry.  
+- Reference Styles → Choose the formula style that fits your workflow.  
+- Freeze Panes → Keep headers visible for large datasets.
+
+---
 # 📊 Excel Hack: Convert Rows into SmartArt
 This hack shows how to quickly turn copied rows of data into a **SmartArt graphic** for better visualization.
 
