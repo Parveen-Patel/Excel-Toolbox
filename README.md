@@ -309,7 +309,9 @@ Instead of manually typing "Present" or "Absent," you can use **checkboxes** to 
 ## ⚡ Pro Tips
 - Format the percentage cell with `%` for readability.  
 - Use conditional formatting to highlight low attendance.  
-- You can also add a column for **Absent** using:  
+- You can also add a column for **Absent** using: =COUNTIF(B2:B20, FALSE)
+
+---
 
 
 
