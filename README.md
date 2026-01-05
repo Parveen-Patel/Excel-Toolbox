@@ -270,6 +270,7 @@ Here’s a faster way to remove all blank rows in a selected range at once.
 # 👥 Excel Hack: Track Attendance with Checkboxes
 
 Instead of manually typing "Present" or "Absent," you can use **checkboxes** to mark attendance and calculate presence percentage with formulas.
+
 ---
 
 ## 📝 Steps
