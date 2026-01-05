@@ -179,7 +179,10 @@ Candy
 
 Tired of manually dragging column borders to fit your data?  
 You can use a simple VBA macro to automatically adjust all columns to the right width.
-
+🎯 What It Does
+Automatically adjusts all columns so that the content fits perfectly.
+Eliminates the need to manually stretch or double-click column borders.
+Works across the entire worksheet in one click.
 ---
 
 ## 📝 Steps
@@ -187,18 +190,11 @@ You can use a simple VBA macro to automatically adjust all columns to the right 
 1. **Right-click** on the sheet tab at the bottom.  
 2. Select **View Code** → This opens the VBA editor.  
 3. In the editor, choose worksheet and use code:
-
+4. Close the editor and return to Excel.
 ```vba
 Sub AutoFitColumns()
     Cells.EntireColumn.AutoFit
 End Sub
 
-4. Close the editor and return to Excel.
 ---
-
-🎯 What It Does
-Automatically adjusts all columns so that the content fits perfectly.
-Eliminates the need to manually stretch or double-click column borders.
-Works across the entire worksheet in one click.
-
 
