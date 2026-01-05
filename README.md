@@ -267,6 +267,50 @@ Here’s a faster way to remove all blank rows in a selected range at once.
 
 ---
 
+# 👥 Excel Hack: Track Attendance with Checkboxes
+
+Instead of manually typing "Present" or "Absent," you can use **checkboxes** to mark attendance and calculate presence percentage with formulas.
+---
+
+## 📝 Steps
+
+1. **Create Employee List**  
+   - In column A, list employee names (e.g., Alice, Bob, Charlie).
+
+2. **Insert Checkboxes for Attendance**  
+   - Select the range next to employee names (column B).  
+   - Go to **Insert → Controls → Checkbox**.  
+   - Place a checkbox in each cell of column B.  
+   - Check the box ✅ if the employee is present, leave unchecked if absent.
+
+3. **Count Attendance**  
+   - Use `COUNTIF` to count checked boxes:  
+     ```
+     =COUNTIF(B2:B20, TRUE)
+     ```
+     → Counts how many employees are marked present.
+
+5. **Calculate Presence Percentage**  
+   - Divide present count by total employees:  
+     ```
+     =COUNTIF(B2:B20, TRUE) / COUNTA(A2:A20)
+     ```
+     → Returns the percentage of employees present.
+
+---
+
+## 🎯 Why It’s Useful
+- Eliminates manual typing of "Present/Absent."  
+- Provides a **visual and interactive** way to track attendance.  
+- Automatically calculates attendance percentage for quick reporting.
+
+---
+
+## ⚡ Pro Tips
+- Format the percentage cell with `%` for readability.  
+- Use conditional formatting to highlight low attendance.  
+- You can also add a column for **Absent** using:  
+
 
 
 
