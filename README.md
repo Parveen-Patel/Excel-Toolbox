@@ -195,5 +195,51 @@ You can use a simple VBA macro to automatically adjust all columns to the right 
 
 ---
 
+# ✂️ Excel Hack: Split Text into Columns with TEXTSPLIT()
+
+The `TEXTSPLIT()` function allows you to break apart text into multiple cells based on a delimiter.  
+
+---
+
+## 📝 Example Setup
+
+Suppose you have the following text in cell `A2`: John,25,Male,New York
+
+---
+
+## ✅ Formula
+=TEXTSPLIT(A2, ",")
+Explanation:
+- `A2` → Cell containing the text string.  
+- `","` → Delimiter (comma in this case).  
+
+Result:
+| Name | Age | Gender | City     |
+|------|-----|--------|----------|
+| John | 25  | Male   | New York |
+
+---
+
+## 🎯 Why It’s Useful
+- Quickly separates combined text into structured columns.  
+- Eliminates the need for manual **Text to Columns** wizard.  
+- Works dynamically: if the source text changes, the split results update automatically.
+
+---
+
+## ⚡ Pro Tips
+- You can split by other delimiters too:
+  - Space: `=TEXTSPLIT(A2, " ")`
+  - Semicolon: `=TEXTSPLIT(A2, ";")`
+- Combine with `FILTER()` or `SORT()` for advanced data manipulation.  
+- Use optional arguments e.g =TEXTSPLIT(A2,,",") : Splits text vertically into rows instead of horizontally into columns.
+
+---
+
+
+
+
+
+
 
 
