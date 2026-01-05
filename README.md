@@ -259,7 +259,6 @@ Here’s a faster way to remove all blank rows in a selected range at once.
 - Saves time compared to deleting rows individually.  
 - Cleans up messy datasets quickly.  
 - Ensures your tables and reports are compact and accurate.
-- 
 ---
 
 ## ⚡ Pro Tip
