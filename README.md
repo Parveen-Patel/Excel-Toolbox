@@ -3,7 +3,6 @@ Curated Excel productivity hacks, formulas, and automation tips for everyday dat
 ----
 
 # 📊 Excel Hack: Convert Rows into SmartArt
-
 This hack shows how to quickly turn copied rows of data into a **SmartArt graphic** for better visualization.
 ---
 
