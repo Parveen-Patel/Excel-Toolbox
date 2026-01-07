@@ -1,14 +1,14 @@
 # Excel-Toolbox
 Curated Excel productivity hacks, formulas, and automation tips for everyday data tasks.
 ----
-# ⚙️ Excel Hack: Advanced Excel Settings
+# Excel Hack: Advanced Excel Settings
 
 Excel offers powerful customization options under **File → Options → Advanced** and related menus.  
 Here are some key settings and tricks to boost productivity.
 
 ---
 
-## 🛠️ Customize Quick Access Toolbar
+## Customize Quick Access Toolbar
 1. Go to **File → Options → Quick Access Toolbar**.  
 2. Choose commands from the left list (e.g., Save As, Sort, Freeze Panes).  
 3. Click **Add >>** to move them to the toolbar.  
@@ -17,7 +17,7 @@ Here are some key settings and tricks to boost productivity.
 
 ---
 
-## 🛠️ Customize Ribbon (Add Your Own Tab)
+## Customize Ribbon (Add Your Own Tab)
 1. Go to **File → Options → Customize Ribbon**.  
 2. On the right side, click **New Tab** → Rename it (e.g., "My Tools").  
 3. Add groups inside the tab (e.g., "Formulas", "Macros").  
@@ -26,7 +26,7 @@ Here are some key settings and tricks to boost productivity.
 
 ---
 
-## 📝 Edit Custom Lists
+## Edit Custom Lists
 Custom lists let you auto-fill sequences (like months, weekdays, or your own categories).
 1. Go to **File → Options → Advanced → General → Edit Custom Lists**.  
 2. Enter your list (e.g., "North, South, East, West").  
@@ -34,7 +34,7 @@ Custom lists let you auto-fill sequences (like months, weekdays, or your own cat
 
 ---
 
-## 🔢 Excel Reference Styles (A1 vs R1C1)
+## Excel Reference Styles (A1 vs R1C1)
 - **A1 Style (Default)**: Columns labeled A, B, C… and rows labeled 1, 2, 3…  
   - Example: `=SUM(A1:A10)`
 - **R1C1 Style**: Both rows and columns labeled numerically.  
@@ -46,7 +46,7 @@ To switch:
 
 ---
 
-## 📌 Freeze Panes
+## Freeze Panes
 Freeze panes keeps headers or specific sections visible while scrolling.
 
 1. Go to **View → Freeze Panes**.  
@@ -60,7 +60,7 @@ Freeze panes keeps headers or specific sections visible while scrolling.
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Quick Access Toolbar → Saves clicks for frequent commands.  
 - Custom Ribbon → Organize tools your way.  
 - Custom Lists → Speed up repetitive data entry.  
@@ -68,12 +68,12 @@ Freeze panes keeps headers or specific sections visible while scrolling.
 - Freeze Panes → Keep headers visible for large datasets.
 
 ---
-# 📊 Excel Hack: Convert Rows into SmartArt
+# Excel Hack: Convert Rows into SmartArt
 This hack shows how to quickly turn copied rows of data into a **SmartArt graphic** for better visualization.
 
 ---
 
-## 📝 Steps
+## Steps
 
 1. **Copy the rows** of data you want to visualize.  
 2. Go to the **Insert** tab.  
@@ -84,20 +84,20 @@ This hack shows how to quickly turn copied rows of data into a **SmartArt graphi
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Transforms plain rows into **visual diagrams** instantly.  
 - Great for presentations, reports, or dashboards.  
 - Saves time compared to manually creating shapes.
 
 ---
-# 🔍 Excel Hack: VLOOKUP vs INDEX-MATCH
+# Excel Hack: VLOOKUP vs INDEX-MATCH
 
 Two of the most popular lookup functions in Excel are **VLOOKUP** and **INDEX-MATCH**.  
 Both help you search for values in a table, but they work differently.
 
 ---
 
-## ⚖️ Differences
+## Differences
 
 | Feature              | VLOOKUP                          | INDEX-MATCH                          |
 |----------------------|----------------------------------|--------------------------------------|
@@ -108,7 +108,7 @@ Both help you search for values in a table, but they work differently.
 
 ---
 
-## ✅ Pros & ❌ Cons
+## Pros & Cons
 
 ### VLOOKUP
 - ✅ Easy to learn and use  
@@ -125,18 +125,18 @@ Both help you search for values in a table, but they work differently.
 
 ---
 
-## 🎯 When to Use
+## When to Use
 - Use **VLOOKUP** for simple, quick lookups in small tables.  
 - Use **INDEX-MATCH** for complex, large, or frequently changing datasets.
 
 ---
-# 📊 Excel Hack: Sparklines for Quick Line Charts
+# Excel Hack: Sparklines for Quick Line Charts
 
 Sparklines are tiny charts that fit inside a cell, giving you a quick visual of your data trends.
 
 ---
 
-## 📝 Steps
+## Steps
 
 1. **Select the range** of data you want to visualize.  
 2. Go to the **Insert** tab.  
@@ -148,25 +148,25 @@ Sparklines are tiny charts that fit inside a cell, giving you a quick visual of 
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Provides **instant trend visualization** without creating full charts.  
 - Saves space in dashboards and reports.  
 - Great for spotting patterns across rows or columns quickly.
 
 ---
 
-## ⚡ Pro Tip
+## Pro Tip
 - Use **Win/Loss sparklines** for binary data (e.g., profit vs loss).  
 - Combine sparklines with **conditional formatting** for powerful mini-dashboards.
 
 ---
-# 🖼️ Excel Hack: Insert Online Images with IMAGE Function
+# Excel Hack: Insert Online Images with IMAGE Function
 
 Excel’s `IMAGE()` function lets you display an online image directly inside a cell using its URL.
 
 ---
 
-## 📝 Steps
+## Steps
 
 1. **Copy the image address (URL)** from the web.  
    - Right-click on the image → Select **Copy Image Address**.  
@@ -177,20 +177,20 @@ Excel’s `IMAGE()` function lets you display an online image directly inside a 
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Embed images directly into your spreadsheet without downloading them.  
 - Great for product catalogs, dashboards, or reports.  
 - Keeps your file lightweight since only the URL is stored.
 
 ---
-# 🍿 Excel Hack: Using FILTER() (Example: for Inventory Status)
+# Excel Hack: Using FILTER() (Example: for Inventory Status)
 
 The `FILTER()` function allows you to extract specific rows from a dataset based on conditions.  
 This is perfect for managing inventory, such as separating **in-stock** and **out-of-stock** items.
 
 ---
 
-## 📝 Example Setup
+## Example Setup
 
 | Snack Name | Quantity |
 |------------|----------|
@@ -202,7 +202,7 @@ This is perfect for managing inventory, such as separating **in-stock** and **ou
 
 ---
 
-## ✅ In-Stock Items
+## In-Stock Items
 
 Formula: =FILTER(A2:A6, B2:B6>0, "No items in stock")
 
@@ -218,7 +218,7 @@ Nuts
 
 ---
 
-## ❌ Out-of-Stock Items
+## Out-of-Stock Items
 
 Formula: =FILTER(A2:A6, B2:B6=0, "All items available")
 
@@ -234,25 +234,25 @@ Candy
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Quickly separates **in-stock** vs **out-of-stock** items.  
 - Eliminates manual filtering or sorting.  
 - Dynamic: updates automatically when quantities change.  
 
 ---
 
-# 📐 Excel Hack: AutoFit Column Widths with VBA
+# Excel Hack: AutoFit Column Widths with VBA
 
 Tired of manually dragging column borders to fit your data?  
 You can use a simple VBA macro to automatically adjust all columns to the right width.
 
-## 🎯 What It Does
+## What It Does
 - Automatically adjusts all columns so that the content fits perfectly.
 - Eliminates the need to manually stretch or double-click column borders.
 - Works across the entire worksheet in one click.
 ---
 
-## 📝 Steps
+## Steps
 
 1. **Right-click** on the sheet tab at the bottom.  
 2. Select **View Code** → This opens the VBA editor.  
@@ -261,19 +261,19 @@ You can use a simple VBA macro to automatically adjust all columns to the right 
 
 ---
 
-# ✂️ Excel Hack: Split Text into Columns with TEXTSPLIT()
+# Excel Hack: Split Text into Columns with TEXTSPLIT()
 
 The `TEXTSPLIT()` function allows you to break apart text into multiple cells based on a delimiter.  
 
 ---
 
-## 📝 Example Setup
+## Example Setup
 
 Suppose you have the following text in cell `A2`: John,25,Male,New York
 
 ---
 
-## ✅ Formula
+## Formula
 =TEXTSPLIT(A2, ",")
 Explanation:
 - `A2` → Cell containing the text string.  
@@ -286,14 +286,14 @@ Result:
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Quickly separates combined text into structured columns.  
 - Eliminates the need for manual **Text to Columns** wizard.  
 - Works dynamically: if the source text changes, the split results update automatically.
 
 ---
 
-## ⚡ Pro Tips
+## Pro Tips
 - You can split by other delimiters too:
   - Space: `=TEXTSPLIT(A2, " ")`
   - Semicolon: `=TEXTSPLIT(A2, ";")`
@@ -302,14 +302,14 @@ Result:
 
 ---
 
-# 🗑️ Excel Hack: Delete Blank Rows in Bulk
+# Excel Hack: Delete Blank Rows in Bulk
 
 Manually deleting blank rows one by one can be time-consuming.  
 Here’s a faster way to remove all blank rows in a selected range at once.
 
 ---
 
-## 📝 Steps
+## Steps
 
 1. **Select the range** of data where blank rows may exist.  
 2. Press **Ctrl + G** → This opens the **Go To** dialog box.  
@@ -321,25 +321,25 @@ Here’s a faster way to remove all blank rows in a selected range at once.
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Saves time compared to deleting rows individually.  
 - Cleans up messy datasets quickly.  
 - Ensures your tables and reports are compact and accurate.
 ---
 
-## ⚡ Pro Tip
+## Pro Tip
 - If you only want to delete blank **cells** (not entire rows), choose **Shift cells up** instead of **Entire Row** in step 5.  
 - Combine this with **Remove Duplicates** or **TRIM()** for a fully cleaned dataset.
 
 ---
 
-# 👥 Excel Hack: Track Attendance with Checkboxes
+# Excel Hack: Track Attendance with Checkboxes
 
 Instead of manually typing "Present" or "Absent," you can use **checkboxes** to mark attendance and calculate presence percentage with formulas.
 
 ---
 
-## 📝 Steps
+## Steps
 
 1. **Create Employee List**  
    - In column A, list employee names (e.g., Alice, Bob, Charlie).
@@ -366,14 +366,14 @@ Instead of manually typing "Present" or "Absent," you can use **checkboxes** to 
 
 ---
 
-## 🎯 Why It’s Useful
+## Why It’s Useful
 - Eliminates manual typing of "Present/Absent."  
 - Provides a **visual and interactive** way to track attendance.  
 - Automatically calculates attendance percentage for quick reporting.
 
 ---
 
-## ⚡ Pro Tips
+## Pro Tips
 - Format the percentage cell with `%` for readability.  
 - Use conditional formatting to highlight low attendance.  
 - You can also add a column for **Absent** using: =COUNTIF(B2:B20, FALSE)
