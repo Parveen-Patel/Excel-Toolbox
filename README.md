@@ -380,6 +380,42 @@ Instead of manually typing "Present" or "Absent," you can use **checkboxes** to 
 
 ---
 
+# Custom Formatting in Excel:
+Custom formatting in Excel allows you to change how numbers, text, dates, and values are displayed **without altering the underlying data**.  
+It’s a powerful way to make spreadsheets more readable, professional, and tailored to specific reporting needs.
+
+---
+
+## How to Use Custom Formatting
+1. **Select the cells** you want to format. (Shortcut: Ctrl + 1)
+2. Right-click → **Format Cells** → go to the **Number** tab.
+3. Choose **Custom** from the category list.
+4. Enter a custom format code (examples below).
+5. (#) is for number and (@) is for text.
+
+### Common Examples
+- **Numbers with leading zeros:**  
+→ Displays `25` as `0025`. To do this cut general and put this: "00"#
+
+- **Phone numbers:**  
+→ Displays `9876543210` as `(987) 654-3210`. To do this cut general and put this directly: (987) 654-3210
+
+- **Dates in custom style:**
+- → Displays `24/01/2026` as `24-Jan-2026`. To do this cut general and put this: dd-mmm-yyy
+→ Colors negative numbers red, positive numbers green, and shows `0` as plain.
+
+---
+
+## When to Use Custom Formatting:
+- **Data Presentation:** When sharing reports with non-technical stakeholders.  
+- **Consistency:** To enforce a standard look across MIS reports.   
+- **Efficiency:** Avoids manual editing — the raw data stays intact while the view changes.
+- Remember: formatting changes appearance, **not the actual value**.
+
+
+
+
+
 
 
 
