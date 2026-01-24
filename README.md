@@ -397,6 +397,9 @@ It’s a powerful way to make spreadsheets more readable, professional, and tail
 - **Numbers with leading zeros:**  
 → Displays `25` as `0025`. To do this cut general and put this: "00"#
 
+- **Name with Mr. first:**  
+→ Displays `Amir Patel` as `Mr. Amir Patel`. To do this cut general and put this: "Mr." @
+
 - **Phone numbers:**  
 → Displays `9876543210` as `(987) 654-3210`. To do this cut general and put this directly: (987) 654-3210
 
